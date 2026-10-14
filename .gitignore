@@ -1,0 +1,59 @@
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Python bytecode and build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Notebook and tooling caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+htmlcov/
+
+# Generated model; recreate with train.py
+/models/*.joblib
+/models/*.pkl
+/models/*.pickle
+
+# Downloaded data and generated partitions; recreate with train.py
+/data/raw.csv
+/data/train.csv
+/data/validation.csv
+/data/test.csv
+
+# Row-level output containing message text
+/outputs/test_predictions.csv
+/outputs/ambiguous_excluded.csv
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary office files
+*.log
+~$*
+*.tmp
+*.bak
+
+# Keep source code, the notebook, requirements, theme configuration,
+# demo examples, summary results, report figures and assets/ tracked.

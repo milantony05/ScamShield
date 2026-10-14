@@ -1,0 +1,33 @@
+{
+  "original_rows": 5971,
+  "raw_sha256": "649844f1c62a6b27e145eaf17a65f7010c56c390e11a794ea8329993a05ba71e",
+  "mirror_url": "https://raw.githubusercontent.com/AbeerAlhuthali/PhishNet/main/PhishNet_Dataset1_original.csv",
+  "missing_or_empty_rows": 0,
+  "conflicting_binary_text_groups": 34,
+  "ambiguous_rows_excluded": 68,
+  "duplicate_text_rows_removed": 106,
+  "retained_rows": 5797,
+  "original_class_counts": {
+    "ham": 4844,
+    "smishing": 638,
+    "spam": 489
+  },
+  "retained_binary_counts": {
+    "0": 5269,
+    "1": 528
+  },
+  "split_counts": {
+    "train": {
+      "rows": 3477,
+      "phishing": 317
+    },
+    "validation": {
+      "rows": 1159,
+      "phishing": 105
+    },
+    "test": {
+      "rows": 1161,
+      "phishing": 106
+    }
+  }
+}

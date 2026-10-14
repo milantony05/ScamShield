@@ -1,0 +1,22 @@
+{
+  "selected_model": "Hybrid Logistic Regression",
+  "threshold": 0.62,
+  "selection_policy": "Highest validation F1 among logistic regression representations; precision breaks ties",
+  "warning_threshold_policy": "Validation F1 optimisation; no claim of calibrated real-world scam probability",
+  "seed": 42,
+  "test_metrics": {
+    "model": "Hybrid Logistic Regression",
+    "threshold": 0.62,
+    "accuracy": 0.9732988802756245,
+    "precision": 0.8440366972477065,
+    "recall": 0.8679245283018868,
+    "f1": 0.8558139534883721,
+    "average_precision": 0.9420373113491664,
+    "false_positive_rate": 0.016113744075829384,
+    "tn": 1038,
+    "fp": 17,
+    "fn": 14,
+    "tp": 92,
+    "fit_seconds": 0.7370758000179194
+  }
+}

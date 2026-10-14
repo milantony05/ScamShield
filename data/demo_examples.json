@@ -1,0 +1,8 @@
+[
+ {"name":"KYC account threat","text":"Your bank account will be blocked today. Update KYC immediately at https://verify-account.example.invalid and enter your OTP.","origin":"manually authored scenario"},
+ {"name":"Prize with advance fee","text":"You won a cash reward of Rs 50000. Pay a processing fee to claim your prize today.","origin":"manually authored scenario"},
+ {"name":"Legitimate OTP warning","text":"Your OTP for the transaction is 123456. Never share this OTP with anyone. If you did not initiate this transaction, contact your bank through its official app.","origin":"manually authored scenario"},
+ {"name":"Ordinary promotional offer","text":"Shop this weekend and get 10 percent cashback on eligible purchases. Terms and conditions apply.","origin":"manually authored scenario"},
+ {"name":"Routine payment notification","text":"Your monthly bill payment was successful. View your statement in the official banking app.","origin":"manually authored scenario"},
+ {"name":"UPI credential request","text":"To receive your refund, send your UPI PIN and OTP immediately to our support team.","origin":"manually authored scenario"}
+]
